@@ -1,0 +1,8 @@
+把真实照片放到这个文件夹，文件名保持如下即可自动显示：
+
+cover-huanghelou.jpg   （可选，封面黄鹤楼）
+cover-bagong.jpg        （可选，封面巴公房子）
+huanghelou-redwall.jpg  （黄鹤楼红墙大图，建议竖图或 3:2）
+bagong-house.jpg        （巴公房子大图，建议街角实拍）
+
+页面会自动读取同名文件；没有文件时显示手绘占位，不会破图。

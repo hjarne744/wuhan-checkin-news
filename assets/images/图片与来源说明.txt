@@ -1,0 +1,21 @@
+团队实拍（页面正在使用）：
+- cover-huanghelou.jpg
+- huanghelou-redwall.jpg
+- bagong-house.jpg
+- cover-bagong.jpg
+- huanghelou-crowd.jpg     来自 images/红墙人群.JPG
+- huanghelou-queue.jpg     来自 images/红墙排队.JPG
+- bagong-visitors.jpg      来自 images/巴公房子游客.JPG
+
+地图：
+把武汉地图图片放到本文件夹，命名为 wuhan-map.jpg
+（路径写在 js/data.js 的 mapImage）。
+没有这张图时，封面显示「武汉地图素材待替换」，不会出现空白地图框。
+
+时间线新闻照片：
+按版权要求，页面不再嵌入媒体原图。
+如需配图，请使用团队自有授权照片，放入本文件夹后在 index.html 对应「需补充」占位处替换。
+
+巴公房子模拟比例：
+修改 js/data.js 里的 simPoll.wait / pass / talk。
+必须保留「模拟数据，仅用于交互原型展示」说明，真实问卷到位后再替换。

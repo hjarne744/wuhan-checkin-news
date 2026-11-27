@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#C45B45" />
+  <title>拥挤之下，秩序从何而来？｜武汉公共空间观察</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://cdn.bootcdn.net" />
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css?v=8" />
+</head>
+<body>
+  <!-- 同一位小游客，不同动作 -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true">
+    <symbol id="doodle-ready" viewBox="0 0 160 220">
+      <g fill="none" stroke="#2b221c" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <ellipse cx="78" cy="208" rx="38" ry="7" fill="rgba(43,34,28,.12)" stroke="none" />
+        <circle cx="84" cy="46" r="22" fill="#f4e2cc" />
+        <path d="M66 34c10-16 40-10 42 8" />
+        <circle cx="76" cy="44" r="2.2" fill="#2b221c" stroke="none" />
+        <circle cx="94" cy="44" r="2.2" fill="#2b221c" stroke="none" />
+        <path d="M78 54c4 5 10 5 14 0" />
+        <path d="M84 68v10" />
+        <path d="M58 84c8-12 52-12 58 4 6 28-8 52-30 54-24 2-34-22-28-58z" fill="#e4c9a8" />
+        <path d="M48 92h22v40H46z" fill="#a9473d" />
+        <path d="M50 90c-8 2-12 18-4 28" />
+        <path d="M70 100h34v22H70z" fill="#f7efe6" />
+        <path d="M74 104h26v8H74z" />
+        <rect x="118" y="96" width="24" height="16" rx="2" fill="#2b221c" />
+        <circle cx="130" cy="104" r="5" stroke="#f4e2cc" />
+        <path d="M70 138v48M98 138l6 48" />
+        <path d="M62 186h22M96 186h22" />
+      </g>
+    </symbol>
+    <symbol id="doodle-wonder" viewBox="0 0 180 220">
+      <g fill="none" stroke="#2b221c" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <ellipse cx="90" cy="208" rx="40" ry="7" fill="rgba(43,34,28,.12)" stroke="none" />
+        <circle cx="90" cy="48" r="22" fill="#f4e2cc" />
+        <path d="M72 36c12-16 40-8 40 10" />
+        <circle cx="80" cy="46" r="2.2" fill="#2b221c" stroke="none" />
+        <circle cx="104" cy="46" r="2.2" fill="#2b221c" stroke="none" />
+        <path d="M86 56c6 4 12 3 16-2" />
+        <path d="M118 28c8-4 14 4 8 10" />
+        <circle cx="128" cy="22" r="3" />
+        <path d="M90 70v8" />
+        <path d="M62 86c12-12 54-10 58 8 4 28-12 50-30 52s-34-20-28-60z" fill="#e4c9a8" />
+        <path d="M50 96h22v38H48z" fill="#a9473d" />
+        <path d="M58 100c-16 8-22 4-28-6M128 100c16 6 24 2 30-8" />
+        <rect x="108" y="108" width="22" height="14" rx="2" fill="#2b221c" />
+        <path d="M74 140v46M102 140l8 46" />
+        <path d="M66 186h22M100 186h22" />
+      </g>
+    </symbol>
+    <symbol id="doodle-selfie" viewBox="0 0 160 220">
+      <g fill="none" stroke="#2b221c" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="70" cy="50" r="22" fill="#f4e2cc" />
+        <path d="M52 38c12-16 40-8 40 10" />
+        <circle cx="64" cy="48" r="2.2" fill="#2b221c" stroke="none" />
+        <circle cx="80" cy="48" r="2.2" fill="#2b221c" stroke="none" />
+        <path d="M64 58c6 6 14 5 18 0" />
+        <path d="M70 72v8" />
+        <path d="M48 88c8-10 48-10 52 6 4 26-8 48-28 50-22 0-30-22-24-56z" fill="#e4c9a8" />
+        <path d="M38 98h20v36H36z" fill="#a9473d" />
+        <path d="M92 86c18-22 28-10 26 6" />
+        <rect x="108" y="58" width="18" height="28" rx="3" fill="#2b221c" />
+        <circle cx="117" cy="70" r="5" stroke="#8ec8e8" />
+        <path d="M60 140v46M86 140l6 46" />
+        <path d="M52 186h22M84 186h20" />
+      </g>
+    </symbol>
+    <symbol id="doodle-pose" viewBox="0 0 160 220">
+      <g fill="none" stroke="#2b221c" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="80" cy="46" r="22" fill="#f4e2cc" />
+        <path d="M62 34c12-16 40-8 40 10" />
+        <circle cx="72" cy="44" r="2.2" fill="#2b221c" stroke="none" />
+        <circle cx="90" cy="44" r="2.2" fill="#2b221c" stroke="none" />
+        <path d="M72 56c8 6 16 5 20-1" />
+        <path d="M80 68v8" />
+        <path d="M56 84c10-10 50-10 54 6 4 28-10 50-28 52-22 2-32-22-26-58z" fill="#e4c9a8" />
+        <path d="M44 94h20v36H42z" fill="#a9473d" />
+        <path d="M118 78l18-22M128 62l14 4" />
+        <rect x="28" y="100" width="20" height="12" rx="2" fill="#2b221c" />
+        <path d="M68 138v48M96 138v48" />
+        <path d="M60 186h22M90 186h22" />
+      </g>
+    </symbol>
+    <symbol id="doodle-walk" viewBox="0 0 160 220">
+      <g fill="none" stroke="#2b221c" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="86" cy="42" r="20" fill="#f4e2cc" />
+        <path d="M70 32c12-14 36-6 36 10" />
+        <circle cx="80" cy="40" r="2" fill="#2b221c" stroke="none" />
+        <circle cx="94" cy="40" r="2" fill="#2b221c" stroke="none" />
+        <path d="M80 50c5 4 12 4 14 0" />
+        <path d="M86 62v8" />
+        <path d="M62 78c12-10 50-6 52 10 2 26-14 46-30 46s-30-18-22-56z" fill="#e4c9a8" />
+        <path d="M52 88h20v34H50z" fill="#a9473d" />
+        <rect x="108" y="96" width="22" height="14" rx="2" fill="#2b221c" />
+        <path d="M70 130l-16 48M102 128l22 46" />
+        <path d="M48 178h20M114 172h22" />
+      </g>
+    </symbol>
+    <symbol id="doodle-wait" viewBox="0 0 160 220">
+      <g fill="none" stroke="#2b221c" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="80" cy="46" r="22" fill="#f4e2cc" />
+        <path d="M62 34c12-16 40-8 40 10" />
+        <circle cx="72" cy="46" r="2.2" fill="#2b221c" stroke="none" />
+        <circle cx="90" cy="46" r="2.2" fill="#2b221c" stroke="none" />
+        <path d="M74 58c4 2 10 2 12-2" />
+        <path d="M80 68v8" />
+        <path d="M56 86c10-10 50-10 54 6 4 26-10 48-28 50-22 2-32-22-26-56z" fill="#e4c9a8" />
+        <path d="M44 96h20v34H42z" fill="#a9473d" />
+        <path d="M58 108c-10 12-8 20 0 18M104 108c10 12 8 20 0 18" />
+        <path d="M68 138v46M94 138v46" />
+        <path d="M60 184h22M88 184h22" />
+      </g>
+    </symbol>
+    <symbol id="doodle-pass" viewBox="0 0 180 220">
+      <g fill="none" stroke="#2b221c" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="90" cy="40" r="20" fill="#f4e2cc" />
+        <path d="M90 60v8" />
+        <path d="M68 76c12-8 48-4 50 10 2 24-16 42-28 42-16 0-30-16-22-52z" fill="#d7c0a4" />
+        <path d="M58 86h18v28H56z" fill="#a9473d" />
+        <path d="M70 124l-22 46M108 122l28 42" />
+        <path d="M42 170h20M126 162h24" />
+      </g>
+    </symbol>
+    <symbol id="doodle-talk" viewBox="0 0 180 220">
+      <g fill="none" stroke="#2b221c" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="74" cy="46" r="20" fill="#f4e2cc" />
+        <path d="M58 36c10-14 34-6 34 8" />
+        <circle cx="66" cy="44" r="2" fill="#2b221c" stroke="none" />
+        <circle cx="82" cy="44" r="2" fill="#2b221c" stroke="none" />
+        <path d="M66 54c6 5 14 5 16 0" />
+        <path d="M74 66v8" />
+        <path d="M52 82c10-8 46-8 50 6 4 24-8 44-26 46-20 0-30-20-24-52z" fill="#e4c9a8" />
+        <path d="M42 92h18v32H40z" fill="#a9473d" />
+        <path d="M108 78c8-20 24-18 28-4" />
+        <path d="M62 130v46M88 130v46" />
+        <path d="M54 176h22M82 176h22" />
+      </g>
+      <path d="M118 32c16-2 24 10 10 20-8 2-14 0-18-6 4-8 6-12 8-14z" fill="#f7efe6" stroke="#2b221c" stroke-width="2.4" />
+    </symbol>
+    <symbol id="doodle-review" viewBox="0 0 160 220">
+      <g fill="none" stroke="#2b221c" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="80" cy="46" r="22" fill="#f4e2cc" />
+        <path d="M62 34c12-16 40-8 40 10" />
+        <circle cx="72" cy="46" r="2.2" fill="#2b221c" stroke="none" />
+        <circle cx="90" cy="44" r="2.2" fill="#2b221c" stroke="none" />
+        <path d="M72 58c8 6 16 4 18-2" />
+        <path d="M80 68v8" />
+        <path d="M56 86c10-10 50-10 54 6 4 26-10 48-28 50-22 2-32-22-26-56z" fill="#e4c9a8" />
+        <path d="M44 96h20v34H42z" fill="#a9473d" />
+        <rect x="96" y="108" width="28" height="18" rx="2" fill="#2b221c" />
+        <circle cx="110" cy="117" r="5" stroke="#f4e2cc" />
+        <path d="M68 138v46M94 138v46" />
+        <path d="M60 184h22M88 184h22" />
+      </g>
+    </symbol>
+    <symbol id="doodle-other" viewBox="0 0 140 200">
+      <g fill="none" stroke="#2b221c" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="70" cy="40" r="18" fill="#ead4b8" />
+        <path d="M70 58v6" />
+        <path d="M50 72c8-8 42-8 46 4 3 22-8 40-24 40s-26-16-22-44z" fill="#c9b59a" />
+        <path d="M92 68c12-8 22 0 22 10" />
+        <rect x="104" y="62" width="18" height="12" rx="2" fill="#2b221c" />
+        <path d="M60 116v40M82 116v40" />
+      </g>
+    </symbol>
+  </svg>
+
+  <div class="device-shell">
+    <div class="app" id="app" data-scene="cover">
+      <header class="masthead">
+        <button type="button" class="text-nav" id="btn-back" hidden>返回</button>
+        <p class="mast-mark">武汉打卡 · 手账</p>
+        <button type="button" class="text-nav" id="btn-restart" hidden>重来</button>
+      </header>
+
+      <main id="stage">
+        <!-- 封面：手绘武汉旅行地图 + 实拍贴纸 -->
+        <section class="screen is-active" id="screen-cover" data-screen="cover">
+          <div class="geo-frame" id="cover-geo">
+            <div class="travel-map" id="cover-map-slot">
+              <svg class="sketch-map" viewBox="0 0 390 560" preserveAspectRatio="xMidYMin meet" role="img" aria-label="手绘武汉局部旅行地图：北为汉口巴公房子，南为武昌黄鹤楼红墙，长江从中穿过">
+                <defs>
+                  <pattern id="paper-grain" patternUnits="userSpaceOnUse" width="80" height="80">
+                    <rect width="80" height="80" fill="#efe4d2" />
+                    <circle cx="12" cy="18" r="0.7" fill="rgba(36,30,24,.06)" />
+                    <circle cx="47" cy="9" r="0.5" fill="rgba(36,30,24,.05)" />
+                    <circle cx="63" cy="44" r="0.8" fill="rgba(53,74,61,.06)" />
+                    <circle cx="28" cy="61" r="0.6" fill="rgba(169,71,61,.05)" />
+                  </pattern>
+                  <linearGradient id="river-fill" x1="0" y1="1" x2="1" y2="0">
+                    <stop offset="0" stop-color="#b7c9c4" />
+                    <stop offset="1" stop-color="#9eb6b4" />
+                  </linearGradient>
+                </defs>
+                <rect width="390" height="560" fill="url(#paper-grain)" />
+                <!-- 汉口街区（江北、偏西） -->
+                <g fill="#e8d9c0" stroke="#9a8874" stroke-width="1.05" stroke-linejoin="round">
+                  <path d="M16 52c18-10 40-12 62-4 14 8 8 28-6 34-22 8-48 6-58-6-6-8-4-18 2-24z" />
+                  <path d="M84 44c22-4 48 2 58 16 6 12-4 28-22 32-20 4-44-4-52-18-4-10 2-22 16-30z" />
+                  <path d="M22 108c16-6 40-2 52 12 8 14-2 30-20 34-20 4-40-8-44-22-2-10 4-18 12-24z" />
+                  <path d="M98 118c24 0 46 10 50 26 4 14-16 26-36 28-22 2-44-10-46-24 0-12 12-28 32-30z" />
+                  <path d="M30 176c20-8 46-4 58 10 8 12-2 30-20 34-22 6-48 0-56-14-4-10 4-22 18-30z" />
+                  <path d="M110 188c26 2 50 8 54 24 2 14-18 24-40 26-24 2-50-8-52-22 0-12 16-30 38-28z" />
+                </g>
+                <!-- 汉阳示意（西南） -->
+                <g fill="#e2d4b8" stroke="#9a8874" stroke-width="1">
+                  <path d="M8 318c22-12 54-10 70 8 10 14-2 36-24 42-24 6-52-2-58-18-4-10 2-24 12-32z" />
+                  <path d="M14 384c16-6 40-2 48 12 6 12-6 26-22 30-18 4-38-4-42-16-2-8 4-20 16-26z" />
+                </g>
+                <!-- 武昌街区（江南、偏东） -->
+                <g fill="#eadcc4" stroke="#9a8874" stroke-width="1.05" stroke-linejoin="round">
+                  <path d="M214 258c28-10 62-8 78 8 12 14 2 36-18 44-26 10-62 4-76-12-8-12-2-28 16-40z" />
+                  <path d="M236 328c26-4 58 2 68 18 8 14-8 32-30 36-26 6-58-4-66-20-6-12 6-28 28-34z" />
+                  <path d="M202 396c24-8 56-4 70 12 10 14-4 34-26 40-24 6-56-2-64-18-6-12 4-26 20-34z" />
+                  <path d="M292 252c22 2 54 8 60 22 6 14-12 28-34 30-24 2-50-10-54-24-2-10 8-30 28-28z" />
+                  <path d="M286 372c28 0 60 8 66 24 4 14-16 30-40 34-26 4-58-6-64-22-4-12 12-34 38-36z" />
+                  <path d="M198 468c26-8 60-6 78 8 12 12 2 32-18 38-24 8-60 2-74-12-8-10 0-26 14-34z" />
+                </g>
+                <!-- 街区里的细路 -->
+                <g fill="none" stroke="#cbbba4" stroke-width="1.15" stroke-linecap="round">
+                  <path d="M28 92c40 6 78 4 118-8" />
+                  <path d="M36 148c36 8 80 6 120-6" />
+                  <path d="M24 208c34 4 70 8 108 2" />
+                  <path d="M72 48c4 50 8 96 2 148" />
+                  <path d="M228 280c40 6 84 4 118 12" />
+                  <path d="M240 348c36 8 78 6 110 14" />
+                  <path d="M218 420c44 4 86 8 120 6" />
+                  <path d="M270 250c6 70 4 140-8 210" />
+                </g>
+                <!-- 几丛树 -->
+                <g fill="#c5d0b8" stroke="#6f7f68" stroke-width=".9">
+                  <ellipse cx="58" cy="64" rx="10" ry="7" />
+                  <ellipse cx="148" cy="156" rx="12" ry="8" />
+                  <ellipse cx="332" cy="300" rx="11" ry="8" />
+                  <ellipse cx="248" cy="452" rx="13" ry="8" />
+                </g>
+                <!-- 长江：西南→东北，隔开汉口 / 武昌 -->
+                <path fill="url(#river-fill)" stroke="#7f9a96" stroke-width="1.2" d="M-10 420
+                  C 40 390, 70 350, 95 310
+                  C 130 255, 155 210, 190 165
+                  C 230 112, 280 70, 350 28
+                  C 380 10, 410 -6, 430 8
+                  L 430 92
+                  C 380 70, 330 108, 292 150
+                  C 250 198, 222 250, 198 300
+                  C 170 360, 130 400, 70 438
+                  C 30 458, -10 470, -10 470 Z" />
+                <!-- 汉江汇入示意 -->
+                <path fill="#a9bfba" stroke="#7f9a96" stroke-width="1" d="M-8 300 C 40 292, 70 310, 92 328 C 70 350, 40 360, -8 352 Z" />
+                <!-- 长江大桥示意（靠近黄鹤楼一侧） -->
+                <g fill="none" stroke="#5c4a3a" stroke-width="2.1" stroke-linecap="round">
+                  <path d="M168 278c28-18 58-22 86-8" />
+                  <path d="M172 286c26-16 54-20 80-6" />
+                  <path d="M186 268v22M214 258v24M246 262v22" />
+                </g>
+                <!-- 过江虚线：武昌红墙 → 桥 → 汉口巴公 -->
+                <path class="dash-route" fill="none" stroke="#a9473d" stroke-width="2.8" stroke-dasharray="6 8" stroke-linecap="round" d="M292 430 C 250 390, 220 340, 210 300 C 198 255, 160 200, 118 148 C 96 122, 78 108, 92 86" />
+                <!-- 脚印 -->
+                <g fill="#a9473d" opacity=".45">
+                  <ellipse cx="278" cy="408" rx="3.2" ry="5.2" transform="rotate(-28 278 408)" />
+                  <ellipse cx="268" cy="396" rx="3" ry="5" transform="rotate(-18 268 396)" />
+                  <ellipse cx="236" cy="348" rx="3" ry="4.8" transform="rotate(-40 236 348)" />
+                  <ellipse cx="198" cy="268" rx="3" ry="4.8" transform="rotate(-55 198 268)" />
+                  <ellipse cx="150" cy="188" rx="3" ry="5" transform="rotate(-40 150 188)" />
+                  <ellipse cx="118" cy="128" rx="3.1" ry="5" transform="rotate(-20 118 128)" />
+                </g>
+                <!-- 手绘箭头 -->
+                <g fill="none" stroke="#a9473d" stroke-width="1.8" stroke-linecap="round">
+                  <path d="M300 318c18-8 28-4 34 10" />
+                  <path d="M328 322l8 10-12 2" />
+                  <path d="M48 210c-10 16-4 30 12 34" />
+                  <path d="M50 238l12 4-4 10" />
+                </g>
+                <!-- 定位针：巴公房子（汉口偏西偏北） -->
+                <g transform="translate(86,78)">
+                  <path d="M0-22c-11 0-18 8-18 18 0 16 18 32 18 32s18-16 18-32c0-10-7-18-18-18z" fill="#a9473d" stroke="#2b221c" stroke-width="1.6" />
+                  <circle cy="-6" r="6" fill="#f7efe6" />
+                </g>
+                <!-- 定位针：黄鹤楼（武昌偏东偏南） -->
+                <g transform="translate(304,442)">
+                  <path d="M0-22c-11 0-18 8-18 18 0 16 18 32 18 32s18-16 18-32c0-10-7-18-18-18z" fill="#a9473d" stroke="#2b221c" stroke-width="1.6" />
+                  <circle cy="-6" r="6" fill="#f7efe6" />
+                </g>
+                <text class="map-ink" x="44" y="34">汉口</text>
+                <text class="map-ink" x="318" y="228">武昌</text>
+                <text class="map-ink small" x="8" y="348">汉阳</text>
+                <text class="map-ink river" x="232" y="118" transform="rotate(-32 232 118)">长江</text>
+                <text class="map-scribble" x="132" y="300">过江～</text>
+                <text class="map-scribble" x="248" y="508">红墙在这儿</text>
+                <text class="map-compass" x="348" y="42">N</text>
+                <path d="M352 48v22" stroke="#2b221c" stroke-width="1.4" />
+                <path d="M352 48l-4 8h8z" fill="#2b221c" />
+              </svg>
+
+              <figure class="map-sticker sticker-bagong">
+                <span class="tape tape-a"></span>
+                <img src="assets/images/cover-bagong.jpg" alt="巴公房子实拍" />
+                <figcaption>巴公房子</figcaption>
+                <span class="sticker-where">汉口</span>
+              </figure>
+              <figure class="map-sticker sticker-huang">
+                <span class="tape tape-b"></span>
+                <img src="assets/images/cover-huanghelou.jpg" alt="黄鹤楼红墙实拍" />
+                <figcaption>黄鹤楼红墙</figcaption>
+                <span class="sticker-where">武昌</span>
+              </figure>
+
+              <svg class="doodle cover-cast" aria-hidden="true"><use href="#doodle-ready" /></svg>
+              <p class="hand-note cover-cast-note">背包带好啦</p>
+              <p class="hand-note map-note-route">沿着虚线走</p>
+            </div>
+            <div class="cover-copy">
+              <p class="issue">No. 01 · 武昌 × 汉口</p>
+              <h1>拥挤之下，<br />秩序从何而来？</h1>
+              <p class="deck">武汉两个热门打卡点的公共空间观察。</p>
+              <p class="lede">来都来了，跟着这位小游客走一趟。红墙管得清楚，街角全靠默契——你更想先去哪儿？</p>
+              <button type="button" class="ink-link" data-go="choose">
+                <span class="ink-ring"></span>
+                出发吧
+                <i class="ink-arrow"></i>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- 选点：同一首屏同时出现 -->
+        <section class="screen choose-screen" id="screen-choose" data-screen="choose">
+          <div class="choose-head">
+            <p class="hand-note">第一站去哪儿？</p>
+            <h2>两个地方都很出片，但玩法可不一样哦！</h2>
+            <p>选一个，咱们出发！放心，另一站一会儿也要去。</p>
+          </div>
+          <div class="choose-pair">
+            <button type="button" class="place-tile" data-choose="huanghelou">
+              <img src="assets/images/huanghelou-redwall.jpg" alt="黄鹤楼红墙" />
+              <span class="where">武昌</span>
+              <strong>黄鹤楼红墙</strong>
+              <em>选这个！</em>
+            </button>
+            <svg class="doodle wonder-cast" aria-hidden="true"><use href="#doodle-wonder" /></svg>
+            <button type="button" class="place-tile" data-choose="bagong">
+              <img src="assets/images/bagong-house.jpg" alt="巴公房子" />
+              <span class="where">汉口</span>
+              <strong>巴公房子</strong>
+              <em>选这个！</em>
+            </button>
+          </div>
+        </section>
+
+        <!-- 黄鹤楼 -->
+        <section class="screen" id="screen-huanghelou" data-screen="huanghelou">
+          <figure class="scene-bleed" id="huang-scene">
+            <img src="assets/images/huanghelou-redwall.jpg" alt="黄鹤楼红墙现场" />
+            <svg class="doodle scene-cast" id="huang-cast" aria-hidden="true"><use href="#doodle-selfie" /></svg>
+            <p class="hand-note note-on-wall">来都来了，当然要拍一张！</p>
+            <button type="button" class="hotspot hs-selfie" data-huang="selfie">
+              <span class="hs-circle"></span>
+              <strong>游客自拍区</strong>
+              <em>自己拍，可能要排队</em>
+            </button>
+            <button type="button" class="hotspot hs-pro" data-huang="pro">
+              <span class="hs-circle alt"></span>
+              <strong>商业代拍区</strong>
+              <em>找摄影师拍</em>
+            </button>
+          </figure>
+          <article class="essay">
+            <p class="chapter" id="huang-chapter">第一站</p>
+            <h2>黄鹤楼红墙</h2>
+            <p>红墙一火，相机比人还密。你是哪一派打卡选手？</p>
+          </article>
+          <div class="field-notes" id="panel-selfie">
+            <div id="selfie-stage-1">
+              <figure class="interact-photo">
+                <img src="assets/images/huanghelou-crowd.jpg" alt="黄鹤楼红墙前游客聚集" />
+                <svg class="doodle overlay-cast selfie-cast" aria-hidden="true"><use href="#doodle-selfie" /></svg>
+              </figure>
+              <p class="hand-note">这里可是热门机位！看看大家都在怎么拍？</p>
+              <button type="button" class="ink-link" id="btn-start-queue" data-action="start-queue">开始排队 <i class="ink-arrow"></i></button>
+              <p class="interact-copy">看看有多少人和你一样</p>
+              <div class="mega-row">
+                <p><b data-bind="selfie.duration">3–5</b><span>分钟 / 单次拍摄</span></p>
+                <p><b data-bind="selfie.samplePeople">37</b><span>人 / 样本</span></p>
+              </div>
+              <div class="ratio">
+                <svg viewBox="0 0 120 120" class="ring">
+                  <circle cx="60" cy="60" r="46" />
+                  <circle cx="60" cy="60" r="46" class="ring-val" />
+                </svg>
+                <div>
+                  <p class="mega-pct"><span data-bind="selfie.sampleShare">74</span>%</p>
+                  <p>50 份样本里，大约七成四选择自拍。</p>
+                  <p class="wait-flag" data-bind="selfie.waitTime">等待时间数据待补充</p>
+                </div>
+              </div>
+              <p class="source" data-bind="selfie.source"></p>
+            </div>
+            <div id="selfie-stage-2" hidden>
+              <figure class="interact-photo">
+                <img src="assets/images/huanghelou-queue.jpg" alt="黄鹤楼红墙前游客排队拍照" />
+                <svg class="queue-line" viewBox="0 0 200 80" aria-hidden="true">
+                  <path d="M20 70 C 50 40, 90 55, 140 30" fill="none" stroke="#f7efe6" stroke-width="2" stroke-dasharray="5 6" />
+                </svg>
+                <svg class="doodle overlay-cast queue-cast" aria-hidden="true"><use href="#doodle-wait" /></svg>
+                <p class="speech on-photo">稍等一下～</p>
+              </figure>
+              <p class="hand-note">前面还有人正在拍，稍等一下就轮到你啦！</p>
+              <p class="source">单次拍摄时长 3–5 分钟，来自 50 份样本中的 37 人（约 74%）。等待人数与等待时间没有确认数据，这里不填写具体数字。</p>
+              <p class="source" data-bind="selfie.source"></p>
+            </div>
+          </div>
+          <div class="field-notes vacant" id="panel-pro">
+            <figure class="interact-photo">
+              <img src="assets/images/huanghelou-pro.jpg" alt="黄鹤楼红墙商拍区，摄影师与引导员在现场" />
+              <svg class="doodle overlay-cast pro-cast" aria-hidden="true"><use href="#doodle-pose" /></svg>
+              <p class="speech on-photo pro-hint">选择摄影师吧</p>
+            </figure>
+            <p class="hand-note">代拍这一侧，先看一组模拟占位数字</p>
+            <ul class="blank-list pro-stats">
+              <li>
+                <span>价格接受度<small>觉得代拍收费可以接受的人占比</small></span>
+                <i><b data-bind="pro.priceAccept">72</b>%</i>
+              </li>
+              <li>
+                <span>代拍满意度<small>对拍摄效果感到满意的人占比</small></span>
+                <i><b data-bind="pro.satisfaction">85</b>%</i>
+              </li>
+              <li>
+                <span>实际消费情况<small>现场实际付费请人代拍的人占比</small></span>
+                <i><b data-bind="pro.spendingShare">38</b>%</i>
+              </li>
+            </ul>
+            <p class="source" data-bind="pro.note"></p>
+          </div>
+          <article class="timeline-essay">
+            <h2>一面红墙，如何重新找回秩序？</h2>
+            <p class="rights-note">时间线事实来自公开报道。项目中现有 timeline 文件为媒体原图，未获转载授权，此处不嵌入。正式发布请换用已获授权的新闻配图。</p>
+            <figure class="news-beat">
+              <div class="photo-slot">需补充已获授权的新闻配图<br />对应现场：红墙走红后的拥挤、占位与商拍聚集</div>
+              <figcaption>
+                <time datetime="2023">2023</time>
+                <h3>走红之后的拥挤</h3>
+                <p>红墙走红，商业摄影团队聚集，出现占位、排队和拉客等问题。</p>
+                <p class="source">来源：极目新闻《黄鹤楼网红打卡地摄影团队扎堆商拍》</p>
+              </figcaption>
+            </figure>
+            <figure class="news-beat">
+              <div class="photo-slot">需补充已获授权的新闻配图<br />对应现场：黄线、隔离栏、游客自拍区与商业代拍区划分</div>
+              <figcaption>
+                <time datetime="2024-07-04">2024-07-04</time>
+                <h3>黄线划开两种拍照</h3>
+                <p>开始划分游客自拍区与商业代拍区域，尝试通过空间划分改善现场秩序。</p>
+                <p class="source">来源：极目新闻《黄鹤楼红墙前划片，游客自拍与摄影师代拍都方便》（2024-07-04）</p>
+              </figcaption>
+            </figure>
+            <figure class="news-beat">
+              <div class="photo-slot">需补充已获授权的新闻配图<br />对应现场：秩序维护岗、现场引导</div>
+              <figcaption>
+                <time datetime="2025-06-11">2025-06-11</time>
+                <h3>岗位与引导</h3>
+                <p>进一步细化现场管理，设置秩序维护岗和现场引导。措施仍在调整，效果有待持续观察。</p>
+                <p class="source">来源：武汉晚报 / 武汉市政府网站《武昌区将黄鹤楼红墙前划定“游客自拍区”》（2025-06-11）</p>
+              </figcaption>
+            </figure>
+          </article>
+          <button type="button" class="ink-link" id="btn-finish-huang">红墙打卡完成，下一站！ <i class="ink-arrow"></i></button>
+        </section>
+
+        <!-- 转场：复用封面地图，沿虚线走到下一站 -->
+        <section class="screen" id="screen-travel" data-screen="travel">
+          <div class="travel-replay" id="comic-stage">
+            <p class="comic-kicker" id="travel-title">途中</p>
+            <p class="comic-line" id="travel-copy">好啦，下一站出发！</p>
+            <span id="map-from-name" hidden>黄鹤楼红墙</span>
+            <span id="map-to-name" hidden>巴公房子</span>
+            <div class="travel-map-host" id="travel-map-host"></div>
+          </div>
+          <div class="arrive" id="travel-arrive" hidden>
+            <p class="arrive-line" id="arrive-text">终于到啦！</p>
+            <button type="button" class="ink-link" id="btn-enter-next">进入下一站 <i class="ink-arrow"></i></button>
+          </div>
+        </section>
+
+        <!-- 巴公房子 -->
+        <section class="screen" id="screen-bagong" data-screen="bagong">
+          <figure class="scene-bleed tall">
+            <img src="assets/images/bagong-house.jpg" alt="巴公房子开放街角" />
+            <p class="hand-note sim-label">街角没有围栏</p>
+          </figure>
+          <article class="essay">
+            <p class="chapter" id="bagong-chapter">下一站</p>
+            <h2>巴公房子</h2>
+            <p>终于到啦！开放街角，拍照的人和路过的人挤在同一块人行道上。</p>
+            <p>来到巴公房子，眼前正好有人在拍照，你会怎么做？</p>
+          </article>
+          <div class="ink-choices" id="sim-choices">
+            <div class="choice-row" data-sim-row="wait">
+              <button type="button" class="choice-btn" data-sim="wait">
+                <svg class="doodle tiny" aria-hidden="true"><use href="#doodle-wait" /></svg>
+                <strong>耐心等一等</strong>
+                <span>站旁边，等对方拍完。</span>
+              </button>
+            </div>
+            <div class="choice-row" data-sim-row="pass">
+              <button type="button" class="choice-btn" data-sim="pass">
+                <svg class="doodle tiny" aria-hidden="true"><use href="#doodle-pass" /></svg>
+                <strong>从旁边绕过去</strong>
+                <span>尽量不挡镜头，也不挡路。</span>
+              </button>
+            </div>
+            <div class="choice-row" data-sim-row="talk">
+              <button type="button" class="choice-btn" data-sim="talk">
+                <svg class="doodle tiny" aria-hidden="true"><use href="#doodle-talk" /></svg>
+                <strong>主动沟通协调</strong>
+                <span>打个招呼，商量谁先谁后。</span>
+              </button>
+            </div>
+            <div class="sim-result" id="sim-result">
+              <figure class="option-shot" id="sim-shot">
+                <img src="assets/images/bagong-visitors.jpg" alt="巴公房子前游客拍照" />
+                <svg class="doodle shot-cast" id="sim-walker" aria-hidden="true"><use href="#doodle-wait" /></svg>
+                <div class="speech" id="sim-speech">我过一下？</div>
+              </figure>
+              <div class="award" id="sim-award">
+                <p class="award-title" id="award-title"></p>
+                <p class="award-copy" id="sim-feedback"></p>
+                <p class="award-stat">在模拟调查中，有 <b id="award-pct">—</b> 的人和你一样，选择了这一项。</p>
+                <p class="source" id="award-note"></p>
+                <button type="button" class="ink-link" id="btn-continue-sim">继续探索 <i class="ink-arrow"></i></button>
+              </div>
+            </div>
+          </div>
+          <div id="sim-after" hidden>
+            <blockquote class="insight">开放空间中的秩序，不一定来自明确的边界，也可能来自使用者之间即时的协调。</blockquote>
+            <button type="button" class="ink-link" id="btn-finish-bagong">巴公房子打卡完成 <i class="ink-arrow"></i></button>
+          </div>
+        </section>
+
+        <section class="screen" id="screen-ending" data-screen="ending">
+          <p class="chapter">终章</p>
+          <h2 class="end-title">两个打卡点，<br />两种秩序。</h2>
+          <div class="diptych">
+            <figure>
+              <img src="assets/images/cover-huanghelou.jpg" alt="黄鹤楼红墙" />
+              <figcaption>
+                <b>黄鹤楼红墙</b>
+                空间划分、工作人员引导、秩序维护。
+              </figcaption>
+            </figure>
+            <figure>
+              <img src="assets/images/bagong-house.jpg" alt="巴公房子" />
+              <figcaption>
+                <b>巴公房子</b>
+                开放空间、游客避让、即时沟通。
+              </figcaption>
+            </figure>
+          </div>
+          <svg class="doodle end-cast" aria-hidden="true"><use href="#doodle-review" /></svg>
+          <blockquote class="finale">
+            公共空间的秩序，不只是管理者划定边界的结果，也来自每一个使用者对他人的理解与体谅。
+          </blockquote>
+          <p class="end-sign">今天的武汉打卡之旅结束了。<br />你拍下的不只是照片，也参与了公共空间秩序的形成。</p>
+          <button type="button" class="ink-link" id="btn-restart-end">再走一遍</button>
+        </section>
+      </main>
+
+      <footer class="folio" id="progress">
+        <span id="progress-text">封面</span>
+        <span id="progress-dots">01</span>
+      </footer>
+    </div>
+  </div>
+  <script src="js/data.js?v=8"></script>
+  <script src="js/app.js?v=8"></script>
+</body>
+</html>
